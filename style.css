@@ -18,7 +18,7 @@ a {
 h1{
     color: #034e42;
     text-decoration: none;
-    font-family: brush script mt, cursive;
+    font-family: lavishla, cursive;
 }
 
 
@@ -63,7 +63,7 @@ button {
 
 .negrito {
     font-weight: bold;
-    font-family: great vibes, cursive;
+    font-family: lavishla, cursive;
     text-align: justify;
 }
 
@@ -76,4 +76,5 @@ button {
 }
 
 @import url(https://fonts.google.com/specimen/Great+Vibes?query=great+vibes);
+@import url(https://fonts.google.com/specimen/Lavishly+Yours?preview.text=Alma%20Bohemia&specimen.preview.text=Alma+Bohemia);
 
