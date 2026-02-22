@@ -18,7 +18,7 @@ a {
 h1{
     color: #034e42;
     text-decoration: none;
-    font-family: 'Great Vibes', cursive;
+    font-family: brush script mt, cursive;
 }
 
 
@@ -63,7 +63,7 @@ button {
 
 .negrito {
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: great vibes, cursive;
     text-align: justify;
 }
 
