@@ -1,5 +1,5 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif, cursive;
     background-color: #f5d8be;
 }
 
@@ -15,7 +15,13 @@ a {
     text-decoration: none;
 }   
 
-h1, h2 {
+h1{
+    color: #034e42;
+    text-decoration: none;
+}
+
+
+h2 {
     color: #472f02;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -59,6 +65,7 @@ button {
 .negrito {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 .display-block {
@@ -66,5 +73,10 @@ button {
     height: 100px;
     background-color: #c2943e;
     border: solid 1px #000;
+    
+}
 
+@import url(https://fonts.google.com/specimen/Great+Vibes?query=great+vibes);
+h1 {
+    font-family: 'Great Vibes', cursive;
 }
