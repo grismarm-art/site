@@ -11,44 +11,44 @@ p {
 
 a {
     color: rgb(15, 88, 79);
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }   
 
 h1, h2 {
     color: #472f02;
-    font-family: script;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
 li {
     color: rgb(15, 88, 79);
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
 th {
     color: rgb(15, 88, 79);
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 td
 {
     color: rgb(92, 37, 18);
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }   
 
 label {
     color: rgb(92, 37, 18);
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
 button {
     background-color: #eebc5e;
     color: rgb(14, 1, 1);
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     border: none;
     padding: 05px 10px;
     cursor: pointer;
@@ -58,5 +58,5 @@ button {
 
 .negrito {
     font-weight: bold;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
