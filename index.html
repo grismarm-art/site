@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Alma Bohemia</h1>
+        <h1 class="negrito">Alma Bohemia</h1>
         <nav>
             <ul>
                 <li><a href="#Sobre">Sobre nós</a></li>
@@ -20,13 +21,13 @@
         </nav>
     </header>
     <section id="Sobre Nós">
-        <h2>Sobre Nós</h2>
+        <h2 class="negrito">Sobre Nós</h2>
 
         <img src="foto.jpg" alt="foto" width="200" height="200" title="Foto do Perfil">
 
         <article>
-            <p>
-                Alma Bohemia nasce de um sonho e da creatividade de Lennys Castillo, uma mulher Venezolana que
+            <p class="negrito">Alma Bohemia nasce de um sonho e da creatividade de Lennys Castillo, uma mulher
+                Venezolana que
                 encontrou no Brasil um novo espaço para empreender, criar e se reinventar. Graduada em Comercio Exterior
                 e apasionada por manualidades e processos criativos,
                 Lennys transforma ideias, sentimentos e cultura em peças feitas com carinho e paixão. Além das criações
@@ -37,7 +38,7 @@
         </article>
 
         <aside>
-            <h3>Habilidades</h3>
+            <h2 class="negrito">Habilidades</h2>
             <ul>
                 <li>Moda & Produtos</li>
                 <li>Manualidades</li>
@@ -50,7 +51,7 @@
         <h2>Moda & Produtos</h2>
 
         <article>
-            <p>
+            <p class="negrito">
                 Na Alma Bohemia, cada peça é uma expressão de arte e cultura. Nossas roupas e acessórios são
                 cuidadosamente selecionados para refletir a essência boêmia, combinando conforto, estilo e
                 autenticidade. Além disso, nossas criações artesanais são feitas com amor e dedicação, trazendo um toque
@@ -61,24 +62,24 @@
         </article>
 
         <section id="Roupas">
-            <h2>Roupas</h2>
+            <h2 class="negrito">Roupas</h2>
 
             <table>
                 <thead>
                     <tr>
-                        <th>Estilos</th>
-                        <th>Size</th>
-                        <th>Preço</th>
+                        <th class="negrito">Estilos</th>
+                        <th class="negrito">Size</th>
+                        <th class="negrito">Preço</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Vestidos</td>
+                        <td class="negrito">Vestidos</td>
                         <td>P, M, G</td>
                         <td>R$ 150,00</td>
                     </tr>
                     <tr>
-                        <td>Macacão</td>
+                        <td class="negrito">Macacão</td>
                         <td>P, M, G</td>
                         <td>R$ 250,00</td>
                     </tr>
@@ -95,25 +96,24 @@
 
         <footer>
 
-            <p>© 2026 Grismar Marín. Todos os direitos reservados.</p>
+            <p class="negrito">© 2026 Grismar Marín. Todos os direitos reservados.</p>
 
             <section id="Contato">
                 <h2>Contato</h2>
-                <p>Tem interesse em conhecer mais sobre a Alma Bohemia? Entre em contato conosco!</p>
+                <p class="negrito">Tem interesse em conhecer mais sobre a Alma Bohemia? Entre em contato conosco!</p>
                 <address>
                     <p>
-                        WhatsApp: <a href="https://wa.me/5554992353398" target="_blank">(54) 99235-3398</a> <br>
+                        Whatsapp <a href="https://wa.me/5554992353398" target="_blank"> (54) 99235-3398 </a>  <br>
                         Instagram: <a href="https://www.instagram.com/almabohemia_lc/"
                             target="_blank">@almabohemia_lc</a> <br>
-                        Endereço: Passo Fundo RS, Brasil <br>
-
+                        Endereço: <a href="endereco" target="_blank">Passo Fundo RS, Brasil</a> <br>
                     </p>
                 </address>
             </section>
 
             <section id="fale com nos">
-                <h2>Fale com nós</h2>
-                <p>Atendimento</p>
+                <h2 class="negrito">Fale com nós</h2>
+                <p class="negrito">Atendimento</p>
 
                 <form action="">
 
@@ -124,7 +124,9 @@
                     <input type="email" id="email" name="email" required><br>
 
                     <label for="telefone">Telefone: </label>
-                    <input type="tel" id="telefone" name="telefone" required><br>
+                    <input type="tel" id="telefone" name="telefone" required>
+
+                    <br>
 
                     <label for="assunto">Assunto: </label>
                     <select name="assunto" id="assunto">
@@ -137,14 +139,14 @@
                     <br>
 
                     <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" cols="20" rows="05" required></textarea> <br>
+                    <textarea id="mensagem" name="mensagem" cols="15" rows="05" required></textarea> <br>
 
                     <input type="checkbox" id="termos" name="termos" required>
                     <label for="termos">Aceito os termos e condições</label>
 
                     <br>
 
-                    <button type="submit">Enviar</button> <br>
+                    <button class="negrito" type="submit">Enviar</button> <br>
 
                 </form>
             </section>

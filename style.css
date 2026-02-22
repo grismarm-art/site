@@ -1,0 +1,68 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5d8be;
+}
+
+
+p {
+    color: rgb(92, 37, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
+
+a {
+    color: rgb(15, 88, 79);
+    font-family: cursive;
+    text-decoration: none;
+}   
+
+h1, h2 {
+    color: #472f02;
+    font-family: script;
+    text-decoration: none;
+}
+
+li {
+    color: rgb(15, 88, 79);
+    font-family: cursive;
+    text-decoration: none;
+}
+
+th {
+    color: rgb(15, 88, 79);
+    font-family: cursive;
+    text-decoration: none;
+}
+td
+{
+    color: rgb(92, 37, 18);
+    font-family: cursive;
+    text-decoration: none;
+}   
+
+label {
+    color: rgb(92, 37, 18);
+    font-family: cursive;
+    text-decoration: none;
+}
+
+button {
+    background-color: #eebc5e;
+    color: rgb(14, 1, 1);
+    font-family: cursive;
+    border: none;
+    padding: 05px 10px;
+    cursor: pointer;
+}
+
+
+
+.negrito {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.icone-social {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
