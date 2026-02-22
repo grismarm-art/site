@@ -60,3 +60,11 @@ button {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.display-block {
+    display: block;
+    height: 100px;
+    background-color: #c2943e;
+    border: solid 1px #000;
+
+}
